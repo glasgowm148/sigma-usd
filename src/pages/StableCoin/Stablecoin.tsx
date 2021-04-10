@@ -37,10 +37,10 @@ const Stablecoin = () => {
                 <div className="reservecoin-cards">
                     <PurchaseForm />
                     <RedeemForm />
-                    
                 </div>
                 <footer className="footer mt-auto py-3">
                     <span className="text-muted">
+<<<<<<< HEAD
                         <a href="https://old.sigmausd.io/" target="_blank">v1</a> <a>|</a>  
                         <a href="https://ergoplatform.org/" target="_blank">ergoplatform.org</a> <a>|</a>  
                         <a href="https://sigmaverse.io/" target="_blank"> sigmaverse.io</a> <a>|</a> 
@@ -56,12 +56,36 @@ const Stablecoin = () => {
                         >
                             AgeUSD Protocol
                         </a> </p>
+=======
+                        <a href="https://ergoplatform.org/" target="_blank">
+                            ergoplatform.org
+                        </a>{' '}
+                        <a>|</a>
+                        <a href="https://sigmaverse.io/" target="_blank">
+                            {' '}
+                            sigmaverse.io
+                        </a>{' '}
+                        <a>|</a>
+                        <a href="https://ergonaut.space/" target="_blank">
+                            {' '}
+                            ergonaut.space
+                        </a>{' '}
+                        <a>|</a>
+                        <a href="https://github.com/anon-real/sigma-usd" target="_blank">
+                            {' '}
+                            github
+                        </a>
+>>>>>>> bd652f6fd3c6c323577105d9fd619effbfa6c3da
                     </span>
+
+                    <div className="switch-site-button">
+                        <a href="https://old.sigmausd.io" rel="noopener noreferer">
+                            View SigmaUSD V1
+                        </a>
+                    </div>
                 </footer>
             </div>
-           
         </div>
-        
     );
 };
 

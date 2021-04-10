@@ -60,12 +60,14 @@ const Home = () => {
                     </div>
 
                     <div className="finance-description__text">
-                        No intermediaries, no middlemen, <br/>just pure, decentralized finance. 
-                        
-                        <br/><br/>
-                        Experience the latest advancements in Stablecoins by buying and selling SigUSD and
-                        SigRSV using Ergo and smart contracts.<br/><br/> This project is based on
-                        the{' '}
+                        No intermediaries, no middlemen, <br />
+                        just pure, decentralized finance.
+                        <br />
+                        <br />
+                        Experience the latest advancements in Stablecoins by buying and selling
+                        SigUSD and SigRSV using Ergo and smart contracts.
+                        <br />
+                        <br /> This project is based on the{' '}
                         <a
                             target="_blank"
                             href="https://ergoplatform.org/en/blog/2021-02-05-building-ergo-how-the-ageusd-stablecoin-works/"
@@ -73,19 +75,21 @@ const Home = () => {
                         >
                             AgeUSD Protocol
                         </a>
+<<<<<<< HEAD
 
                         <p style={{color: "grey", fontSize: "14px"}}>Looking for <a href="https://old.sigmausd.io/" target="_blank">v1</a>?</p>
                         
+=======
+>>>>>>> bd652f6fd3c6c323577105d9fd619effbfa6c3da
                     </div>
-
-
                 </section>
-                
+
                 <CoinsInfo />
                 <PersonalInfo ergVal={ergVal} stableVal={stableVal} reserveVal={reserveVal} />
 
                 <footer className="footer mt-auto py-3">
                     <span className="text-muted">
+<<<<<<< HEAD
                         <a href="https://old.sigmausd.io/" target="_blank"> v1</a> <a>|</a>  
                         <a href="https://ergoplatform.org/" target="_blank">ergoplatform.org</a> <a>|</a>  
                         <a href="https://sigmaverse.io/" target="_blank"> sigmaverse.io</a> <a>|</a> 
@@ -101,12 +105,35 @@ const Home = () => {
                         >
                             AgeUSD Protocol
                         </a> </p>
+=======
+                        <a href="https://ergoplatform.org/" target="_blank">
+                            ergoplatform.org
+                        </a>{' '}
+                        <a>|</a>
+                        <a href="https://sigmaverse.io/" target="_blank">
+                            {' '}
+                            sigmaverse.io
+                        </a>{' '}
+                        <a>|</a>
+                        <a href="https://ergonaut.space/" target="_blank">
+                            {' '}
+                            ergonaut.space
+                        </a>{' '}
+                        <a>|</a>
+                        <a href="https://github.com/anon-real/sigma-usd" target="_blank">
+                            {' '}
+                            github
+                        </a>
+>>>>>>> bd652f6fd3c6c323577105d9fd619effbfa6c3da
                     </span>
-                </footer>
-                
-            </main>
 
-            
+                    <div className="switch-site-button">
+                        <a href="https://old.sigmausd.io" rel="noopener noreferer">
+                            View SigmaUSD V1
+                        </a>
+                    </div>
+                </footer>
+            </main>
         </>
     );
 };
